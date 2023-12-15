@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Form validation</title>
+</head>
+
+<body>
+    <form action="message.html" onsubmit="return check()">
+        <input id="username" placeholder="username" type="text" /><br><br>
+        <input id="email" placeholder="email" type="email" />
+        <br><br>
+        <input id="password" placeholder="password" type="password" />
+        <br><br>
+
+
+
+        <button type="submit">submit </button>
+    </form>
+
+    <script>
+
+
+        function check() {
+
+            username = document.getElementById("username").value;
+            password = document.getElementById("password").value;
+            email = document.getElementById("email").value;
+            alpha = /^[A-Za-z]+$/
+            if (username == '') {
+                alert('enter the name');
+                return false;
+            }
+            else if (!alpha.test(username)) {
+                alert("use only alphapets");
+                return false;
+            }
+            em = /^[A-Za-z0-9_.]+\@([a-z]{5})+\.([a-z]{3})+$/
+            if (email == '') {
+                alert("Please enter a valid email!");
+                return false;
+            }
+            if (!em.test(email)) {
+                alert("enter the valid email address");
+                return false;
+            }
+            p = /^[0-9]{10}+$/
+            if (password == '') {
+                alert('enter the password');
+                return false;
+            }
+            else if (!p.test(password)) {
+                alert("password must be more than 9 characters")
+                return false;
+            }
+
+
+    
+        }
+
+    </script>
+</body>
+
+</html>

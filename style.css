@@ -1,0 +1,106 @@
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+b{
+    color: whitesmoke;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #f83030;
+    
+}
+.container-fluid1{
+    margin-left: auto;
+    padding: 0px 17px;
+    
+}
+#navbar{
+    position: sticky;
+    top: 0;
+}
+li{
+    padding: 5px;
+}
+.carousel-item img{
+    height: 500x;
+
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom:2px solid blue;
+    transition: .1s;
+
+}
+
+span{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+#home img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+}
+.card img{
+    height: 200px;
+}
+.media{
+ background-color:black;
+ height: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.link{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px;
+    line-height: 150px;
+
+}
+a i{
+    transition: all 0.3s linear;
+} 
+a:hover i{
+    transform: scale(1.5);
+}
+.whatsapp:hover{
+    color: green;
+}
+.instagram:hover{
+    color: rgb(241, 19, 175);
+}
+.youtube:hover{
+    color: red;
+}
+.twitter:hover{
+    color: #06b7fd;
+}
+.facebook:hover{
+    color:blue
+}.github:hover{
+    color: #e91e1e;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #f83030;
+    font-weight:bold;
+
+}
+
+
+
